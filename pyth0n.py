@@ -19,3 +19,22 @@ triplePrint("Trees ")
 # /////////////////////////////////////
 # LIST(arrays)
 shoes = ["Nike", "Under Armour", "Puma", "K-Swiss"]
+print(shoes)
+
+# /////////////////////////////////////
+# LOOPS
+numbers = [4, 24, 50, 59, 71, 8, 74, 44, 92, 1000, 90]
+for num in numbers:
+    if num >= 90:
+        print(num)
+# /////////////////////////////////////
+words = ["Summer", "Sale", "Save Big"]
+definitions = ["1 of 4 Seasons",
+               "exchange of a commodity for money", "common term used in sales"]
+
+homemadeDictionary = {}
+for i in range(0, 3):
+    homemadeDictionary[words[i]] = definitions[i]
+print(homemadeDictionary)
+# /////////////////////////////////////
+# CLASSES
