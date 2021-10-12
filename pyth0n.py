@@ -8,3 +8,14 @@ if 2000 <= Birthyear < 2100:
     print("Welcome to the 21st century")
 else:
     print("Your born before the 21st")
+# /////////////////////////////////////
+
+
+def triplePrint(word):
+    print(word*3)
+
+
+triplePrint("Trees ")
+# /////////////////////////////////////
+# LIST(arrays)
+shoes = ["Nike", "Under Armour", "Puma", "K-Swiss"]
