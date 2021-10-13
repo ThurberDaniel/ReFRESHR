@@ -6,3 +6,7 @@ class Car:
 
     def age(self):
         return 2020 - self.year
+
+
+MyCar = Car(1999, "ford", "truck")
+print(MyCar.age())
