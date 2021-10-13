@@ -38,3 +38,30 @@ for i in range(0, 3):
 print(homemadeDictionary)
 # /////////////////////////////////////
 # CLASSES
+
+
+class Car:
+    def __init__(self, year, make, model):
+        self.year = year
+        self.make = make
+        self.model = model
+
+    def age(self):
+        return 2020 - self.year
+
+
+age()
+
+
+class Dog:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
+    def bark(self):
+        print("ROAR BARK!")
+
+
+myDog = Dog("Fred", "blue")
+
+print(myDog.color)
