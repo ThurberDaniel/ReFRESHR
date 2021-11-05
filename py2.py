@@ -10,3 +10,11 @@ class Car:
 
 MyCar = Car(1999, "ford", "truck")
 print(MyCar.age())
+
+
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
