@@ -19,7 +19,7 @@ for x in fruits:
         break
 
 
-for x in range(6):
+for x in range(00):
     print(x)
 else:
     print("Finally finished!")
